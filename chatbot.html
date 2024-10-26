@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHATBOT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Arial', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHN0YXJ8ZW58MHx8fHwxNjY4NzY3MDM0&ixlib=rb-1.2.1&q=80&w=1080'), #1a1a2e; /* Starry background */
+            height: 700px;
+            background: url('https://images.wallpaperscraft.com/image/single/cosmonaut_astronaut_space_suit_137404_1366x768.jpg') no-repeat, #1a1a2e; /* Starry background */
             background-size: cover; 
             color: #ffffff; 
         }
@@ -115,19 +115,23 @@
           transform-origin:center center; 
           transform : scale(2);
       }
+      .k1{
+        margin-left: 355px;
+      }
     </style>
 </head>
-<body>
-    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHN0YXJ8ZW58MHx8fHwxNjY4NzY3MDM0&ixlib=rb-1.2.1&q=80&w=1080" class="poster" alt="Astral Background" />
-    <div class="chatbot">
+<body><div class="container-fluid">
+    <div class="container ">
+    <div class="chatbot k1">
         <header><span>HOW MAY I HELP YOU !!</span></header>
         <ul id="messages"></ul>
         <div class="chat-input">
             <textarea placeholder="Type your message..." id="chatInput" rows="2"></textarea>
             <button id="sendBtn">Send</button>
         </div>
+        </div>
     </div>
-
+    </div>
     <script>
         const messagesContainer = document.getElementById("messages");
         const chatInput = document.getElementById("chatInput");

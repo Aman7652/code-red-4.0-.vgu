@@ -5,26 +5,27 @@
     width: 105px;
 }
 .login{
-    background-color: rgb(68, 52, 218);
+    background-color:seagreen;
     color: white;
     font-size: 12px;
 }
 .login:hover{
-    background-color: rgb(68, 52, 218);
+    background-color:seagreen;
     color: white;
 }
 header{
     position:fixed;
+    background-color: #086a08;
 }
 header a{
     text-decoration: none;
-    color:black;
+    color:white;
 }
 .tag{
     font-size: 10px;
-    color: rgb(25, 213, 25);
+    color: white;
 }
-.link{
+.button{
     text-decoration: none;
     color: white;
 }
@@ -49,28 +50,28 @@ form label{
     background-color: #169b16;
     border-color: #169b16;
 }
-.sign{
-    position:fixed;
-    top: 18%;
-    left: 22%;
-    width: 770px;
-    height: 520px;
-    border-radius: 3px;
+.gol{
+    border-radius: 5px!important;
 }
 .colo{
     background-image: url(pexels-pixabay-235925_1400x909.jpg);
 }
 .bfl{
-    background-image:url(WhatsApp\ Image\ 2024-10-25\ at\ 01.25.21_e57ce358.jpg) ;
+    background-image:url(pexels-ersin-1398102958-29071813\ \(1\).jpg) ;
+    margin-top: 21px;
 }
 .cfl{
     background-color:rgb(0,0, 0,0.6);
-    color: white;
+    color:black;
+    background-color: white;
 }
 .cfl a{
-
-    color: white;
+    color: black;
 }
+.cfl h2,.cfl p{
+    text-align: center;
+}
+
 .input {
     width: 40px;
     border: none;
@@ -117,9 +118,9 @@ form label{
     color: #169b16;
 }
 .im{
-    border-radius: 50%;
-    height: 50%;
-    width: 50%;
+    background-image: url(1000_F_440160837_DMiDSM7wJozh0fppo3CeybQf7Ac5WwGZ\ \(1\).jpg);
+    text-align: center;
+    align-items: center!important;
 }
 .lo{
     width: 100px;
@@ -136,28 +137,51 @@ form label{
  color: white;
 }
 .b2{
-    margin-top: 24px;
+    margin-top: 268px;
     background-color: #169b16;
     border: #169b16;
 }
-.gt{
-    padding-left: 120px;
-    padding-top: 100px;
-}
+
 .b3,.b4,.b5{
-    border: 1px solid #169b16;
     margin-left: 5px;
     border-radius: 5px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.b3{
+    border: 2px solid #169b16;
+}
+.b4{
+    border: 2px solid orangered;
+}
+.b5{
+    border: 2px solid rgb(35, 35, 206);
+}
 .b6{
     padding-bottom: 90px;
 }
-.b7,.b8,.b9,.b10,.b11{
-    border: 1px solid #169b16;
+.b7{
+    border: 2px solid #879b16;
     height: 380px;
 }
+.b8{
+    border: 2px solid #169b16;
+    height: 380px;
+}
+.b9{
+    border: 2px solid #1b9ed6;
+    height: 380px;
+}
+.b10{
+    border: 2px solid #1e128b;
+    height: 380px;
+}
+.b11{
+    border: 2px solid #9b1616;
+    height: 380px;
+}
+
+
 .b12,.b13{
     border: 1px solid #169b16;
     height: 300px;
@@ -227,6 +251,100 @@ ul{
     background-color: #ffffff;
   }
   
+  /* popup */
+  .popup{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height:459%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+
+  }
+  .popup-content{
+    width: 770px;
+    height: 520px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 84px;
+  }
+  .close{
+    position: absolute;
+    top: -15px;
+    right:-15px ;
+    height: 23px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  /* weather */
+  .conto {
+    margin-top: 20px;
+    text-align: center;
+
+    background-image: url(https://cdn2.vectorstock.com/i/1000x1000/07/81/seamless-weather-forecast-background-vector-2000781.jpg);
+    height:500px;
+    margin-bottom: 10px;
+}
+.weather-input {
+    margin-bottom: 20px;
+    padding-top: 151px;
+    
+}
+.weather-input button{
+    border-radius: 10px;
+}
+input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+button {
+    padding: 10px;
+    margin-left: 10px;
+}
+.weather-data {
+    margin-top: 20px;
+    color: #fff;
+}
+  
+.a0{
+text-align: center;
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+border-left:2px solid black ;
+}
+.a1,.a2,.a3{
+    border-right:2px solid black ;
+    border-left:2px solid black ;
+}
+.bot{
+    width: 100%;
+    border: 0px none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.j1{
+    text-align: center;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    margin-top:16px ;
+    padding-top: 10px;
+    margin-bottom: 16px;
+    
+}
+  .j2{
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;
+    padding-bottom:10px ;
+    margin-bottom: 10px;
+  }
   /*responsive*/
   @media(max-width: 767px){
     .footer-col{
